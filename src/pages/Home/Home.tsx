@@ -122,7 +122,7 @@ export default function Home() {
       </section>
 
       {/* PROJETOS SELECIONADOS */}
-      <section className="section selected-projects">
+      <section className="section selected-projects" id="projetos">
         <div className="container">
           <div className="section-head" data-reveal-fade>
             <span className="eyebrow">Projetos selecionados</span>
@@ -192,7 +192,7 @@ export default function Home() {
       </section>
 
       {/* SOBRE RESUMIDO */}
-      <section className="section about-summary container">
+      <section className="section about-summary container" id="sobre">
         <div className="about-summary__image" data-reveal-fade>
           <img
             src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1400&auto=format&fit=crop"
@@ -210,7 +210,7 @@ export default function Home() {
       </section>
 
       {/* CHAMADA FINAL */}
-      <section className="final-cta">
+      <section className="final-cta" id="contato">
         <div className="container final-cta__inner" data-reveal-fade>
           <h2 className="final-cta__title">Todo espaço começa com uma conversa.</h2>
           <a

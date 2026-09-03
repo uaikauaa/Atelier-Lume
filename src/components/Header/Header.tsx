@@ -34,7 +34,7 @@ export default function Header() {
 
   return (
     <header className={`header ${scrolled ? 'header--solid' : ''} ${menuOpen ? 'header--menu-open' : ''}`}>
-      <div className="header__bar container">
+      <div className="header__bar">
         <Link to="/" className="header__logo" onClick={() => setMenuOpen(false)}>
           Atelier Lume
         </Link>
@@ -50,7 +50,7 @@ export default function Header() {
             </NavLink>
           ))}
           <a
-            className="btn-line header__cta"
+            className="header__link header__link--cta"
             href={buildWhatsappLink('Olá, Atelier Lume! Conheci o trabalho de vocês pelo site e gostaria de conversar sobre um projeto.')}
             target="_blank"
             rel="noreferrer"
