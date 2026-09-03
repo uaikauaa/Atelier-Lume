@@ -134,10 +134,10 @@ export default function Home() {
               <ProjectCard project={projects[0]} index={1} size="large" />
             </div>
             <div className="sp-item sp-item--2" data-reveal-fade>
-              <ProjectCard project={projects[1]} index={2} size="medium" />
+              <ProjectCard project={projects[1]} index={2} size="large" />
             </div>
             <div className="sp-item sp-item--3" data-reveal-fade>
-              <ProjectCard project={projects[2]} index={3} size="medium" />
+              <ProjectCard project={projects[2]} index={3} size="large" />
             </div>
             <div className="sp-item sp-item--4" data-reveal-fade>
               <ProjectCard project={projects[3]} index={4} size="large" />

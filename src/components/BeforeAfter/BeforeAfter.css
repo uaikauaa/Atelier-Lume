@@ -20,6 +20,11 @@
   pointer-events: none;
 }
 
+.before-after__layer--before img {
+  object-fit: contain;
+  object-position: left center;
+}
+
 .before-after__label {
   position: absolute;
   top: 1.25rem;

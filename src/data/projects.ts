@@ -79,7 +79,7 @@ export const projects: Project[] = [
       'O desafio do Apartamento Nômade era criar uma base estável para moradores com rotina de viagens constantes. A solução foi reduzir a planta a poucos elementos fixos — um núcleo de marcenaria que concentra armazenamento e serviços — e liberar o restante do espaço para se reconfigurar conforme a necessidade. Cortinas de linho substituem portas em parte do apartamento, permitindo que a luz atravesse os ambientes ao longo do dia. A paleta neutra foi escolhida para acomodar objetos trazidos de diferentes lugares sem gerar ruído visual.',
     heroImage: 'https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?q=80&w=2000&auto=format&fit=crop',
     heroImageAlt: 'Sala de estar minimalista do Apartamento Nômade com marcenaria em madeira clara',
-    cardImage: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1600&auto=format&fit=crop',
+    cardImage: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=1600&auto=format&fit=crop',
     cardImageAlt: 'Quarto do Apartamento Nômade com luz natural difusa',
     gallery: [
       { src: 'https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?q=80&w=1800&auto=format&fit=crop', alt: 'Cozinha integrada do Apartamento Nômade', orientation: 'horizontal' },
@@ -128,7 +128,7 @@ export const projects: Project[] = [
       'A Galeria Orbe ocupa um antigo galpão industrial reconvertido em espaço expositivo. O projeto manteve a estrutura metálica original aparente, tratando-a como parte do acervo arquitetônico do lugar, e inseriu um sistema de paredes móveis que permite reconfigurar completamente os percursos de visitação a cada mostra. A luz zenital foi controlada por um forro técnico difusor, garantindo iluminação homogênea sem a necessidade de luz artificial durante o dia. Um pátio interno serve como pausa entre as salas e amplia a percepção de escala do edifício.',
     heroImage: 'https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=2000&auto=format&fit=crop',
     heroImageAlt: 'Interior amplo da Galeria Orbe com estrutura metálica aparente e luz zenital',
-    cardImage: 'https://images.unsplash.com/photo-1470723710355-95304d8aece4?q=80&w=1600&auto=format&fit=crop',
+    cardImage: 'https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1600&auto=format&fit=crop',
     cardImageAlt: 'Sala expositiva da Galeria Orbe com paredes móveis',
     gallery: [
       { src: 'https://images.unsplash.com/photo-1509805735755-6d3d1a6e5f8c?q=80&w=1800&auto=format&fit=crop', alt: 'Pátio interno da Galeria Orbe', orientation: 'horizontal' },
