@@ -61,7 +61,7 @@ export const projects: Project[] = [
     ],
     materials: ['Concreto aparente', 'Madeira de reflorestamento', 'Vidro laminado', 'Pedra local'],
     beforeAfter: {
-      before: 'https://images.unsplash.com/photo-1600585152915-8a5e0b3c8f2b?q=80&w=1800&auto=format&fit=crop',
+      before: '/images/transformacao-antes.jpg',
       after: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1800&auto=format&fit=crop',
       beforeAlt: 'Terreno original antes da intervenção do Atelier Lume',
       afterAlt: 'Sala integrada ao jardim após a reforma da Casa Horizonte',
