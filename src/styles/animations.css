@@ -1,0 +1,22 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes maskReveal {
+  from { clip-path: inset(0 0 100% 0); }
+  to { clip-path: inset(0 0 0% 0); }
+}
+
+.reveal-line {
+  overflow: hidden;
+}
+
+.reveal-line > * {
+  display: block;
+  will-change: transform;
+}
+
+.page-fade {
+  animation: fadeIn var(--dur-medium) var(--ease-editorial);
+}

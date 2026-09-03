@@ -1,0 +1,36 @@
+:root {
+  /* Paleta */
+  --color-black: #11110F;
+  --color-white: #F2EFE8;
+  --color-mineral: #A8A49B;
+  --color-wood: #8A6B4B;
+  --color-olive: #343B32;
+
+  --color-black-soft: rgba(17, 17, 15, 0.72);
+  --color-white-soft: rgba(242, 239, 232, 0.72);
+  --color-hairline: rgba(242, 239, 232, 0.16);
+  --color-hairline-dark: rgba(17, 17, 15, 0.14);
+
+  /* Tipografia */
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --step--1: clamp(0.8rem, 0.77rem + 0.15vw, 0.9rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --step-1: clamp(1.25rem, 1.15rem + 0.5vw, 1.6rem);
+  --step-2: clamp(1.6rem, 1.4rem + 1vw, 2.25rem);
+  --step-3: clamp(2.1rem, 1.7rem + 2vw, 3.4rem);
+  --step-4: clamp(2.8rem, 2.1rem + 3.5vw, 5.2rem);
+  --step-5: clamp(3.6rem, 2.4rem + 6vw, 7.5rem);
+
+  /* Layout */
+  --container-max: 1440px;
+  --gutter: clamp(1.25rem, 4vw, 4rem);
+  --section-space: clamp(5rem, 12vw, 10rem);
+
+  /* Movimento */
+  --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 0.4s;
+  --dur-medium: 0.9s;
+  --dur-slow: 1.4s;
+}

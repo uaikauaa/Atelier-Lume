@@ -1,0 +1,27 @@
+.not-found {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: clamp(6rem, 12vw, 8rem);
+  padding-bottom: var(--section-space);
+}
+
+.not-found__title {
+  font-size: var(--step-3);
+  max-width: 18ch;
+  margin-block: 0.75rem 1.25rem;
+}
+
+.not-found__text {
+  max-width: 48ch;
+  color: var(--color-white-soft);
+  margin-bottom: 2.5rem;
+}
+
+.not-found__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
